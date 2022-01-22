@@ -1,0 +1,60 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center;
+}
+
+.navbar .nav-item.active {
+  border-left: rgb(255, 255, 255) 3px solid;
+}
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: black;
+}
+
+#registration-header {
+  height: 300px;
+  background: url("../img/FEAL.jpg") no-repeat;
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 100px;
+  opacity: 0.8;
+  background-size: cover;
+}
+
